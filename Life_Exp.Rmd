@@ -41,7 +41,7 @@ Now I will add some sumary statistics
 ```{r}
 gapminder_unfiltered %>% 
   filter(year == 2000) %>%
-  summarise(ave == mean(lifeExp))
+  summarise(ave = mean(lifeExp))
 
 
 
